@@ -1,5 +1,3 @@
- <h1 align="center"> Organic ML </h1>
-
 <p align="center">
   <img src="organic_logo.png" alt="Organic" height="120" />
 </p>
