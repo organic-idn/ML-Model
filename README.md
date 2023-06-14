@@ -60,7 +60,7 @@ This Repository is used by Machine Learning path cohort to develop object detect
 
 <h1 align="center"> Object Detection using SSD Mobilenet V2 </h1>
 <p align="center">
-  <img src="mobilenet.jpeg" alt="MobileNet" height="120" />
+  <img src="mobilenet.jpeg" alt="MobileNet" height="220" width="240"/>
 </p>
 MobileNetV2, developed by Google, is an efficient and compact neural network model designed for mobile and edge devices. Building upon its predecessor, MobileNetV1, it introduces two key features: inverted residuals and linear bottlenecks. These architectural improvements maintain high accuracy while being highly computationally efficient. Inverted residuals help in reusing bottlenecks from previous layers, whereas linear bottlenecks reduce the model's size by reducing the dimensionality inside the network. The result is a balance of performance and size, making MobileNetV2 ideal for resource-constrained devices and applications like real-time image classification and object detection.
 
