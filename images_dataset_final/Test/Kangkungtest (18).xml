@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Test</folder>
+	<filename>Kangkungtest (18).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Test\Kangkungtest (18).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>500</width>
+		<height>312</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kangkung</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>33</xmin>
+			<ymin>17</ymin>
+			<xmax>483</xmax>
+			<ymax>244</ymax>
+		</bndbox>
+	</object>
+</annotation>

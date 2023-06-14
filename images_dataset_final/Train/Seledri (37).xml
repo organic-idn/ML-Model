@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>Seledri (37).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Train\Seledri (37).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Seledri</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>26</xmin>
+			<ymin>118</ymin>
+			<xmax>640</xmax>
+			<ymax>525</ymax>
+		</bndbox>
+	</object>
+</annotation>

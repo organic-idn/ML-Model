@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>KolNew (15).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Train\KolNew (15).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kol</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>43</xmin>
+			<ymin>53</ymin>
+			<xmax>193</xmax>
+			<ymax>182</ymax>
+		</bndbox>
+	</object>
+</annotation>

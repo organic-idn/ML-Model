@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Test</folder>
+	<filename>Kentangtest (14).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Test\Kentangtest (14).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>224</width>
+		<height>224</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kentang</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>121</ymin>
+			<xmax>118</xmax>
+			<ymax>187</ymax>
+		</bndbox>
+	</object>
+</annotation>

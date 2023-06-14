@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>Sawi (48).jpeg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Train\Sawi (48).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>400</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Sawi</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>40</xmin>
+			<ymin>54</ymin>
+			<xmax>242</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>

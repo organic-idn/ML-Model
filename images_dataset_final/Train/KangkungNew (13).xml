@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>KangkungNew (13).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Train\KangkungNew (13).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>375</width>
+		<height>500</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Kangkung</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>51</xmin>
+			<ymin>72</ymin>
+			<xmax>338</xmax>
+			<ymax>451</ymax>
+		</bndbox>
+	</object>
+</annotation>

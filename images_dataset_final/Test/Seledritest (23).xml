@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Test</folder>
+	<filename>Seledritest (23).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Test\Seledritest (23).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1500</width>
+		<height>1225</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Seledri</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>177</xmin>
+			<ymin>25</ymin>
+			<xmax>1500</xmax>
+			<ymax>882</ymax>
+		</bndbox>
+	</object>
+</annotation>

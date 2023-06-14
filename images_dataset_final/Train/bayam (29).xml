@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>bayam (29).jpg</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Train\bayam (29).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1654</width>
+		<height>1654</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Bayam</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>105</xmin>
+			<ymin>194</ymin>
+			<xmax>1651</xmax>
+			<ymax>1554</ymax>
+		</bndbox>
+	</object>
+</annotation>

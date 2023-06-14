@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Train</folder>
+	<filename>CabaiNew (18).png</filename>
+	<path>C:\Users\riandra putra\Downloads\labelImg-master\labelImg-master\bangkitdata\Train\CabaiNew (18).png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>872</width>
+		<height>389</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Cabai</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>24</ymin>
+			<xmax>792</xmax>
+			<ymax>368</ymax>
+		</bndbox>
+	</object>
+</annotation>
