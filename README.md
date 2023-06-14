@@ -4,55 +4,45 @@ This Repository is used by Machine Learning path cohort to develop object detect
 ![Bangkit Image](bangkit.png)
 
 <br>
-<h3>Architecture</h3>
+<h3>Deployment Environment</h3>
 <br>
 <p>
-1. Google Image Scraping
+1. Dependency
   <br>
   <pre>
-  he project begins by scraping images from Google to form the dataset. The gathered images are then divided into two categories:
-  a. **Training Images:** These images will be used to train our model, allowing it to learn patterns and identify objects of interest.
-  b. **Testing Images:** These images will be used to evaluate the trained model's performance and accuracy in identifying objects of interest.
+  - express
+  - jsonwebtoken
+  - bcrypt
+  - dotenv
+  - mysql </pre>
   <br>
-2. Labelling Images Using LabelImg
-  <br>
-  <pre>
-  The collected images (both training and testing) are labeled using LabelImg. This involves marking regions of interest in the images and assigning appropriate class labels for the model to learn from. </pre>
-  <br>
-3. Label Map Creation
+2. Environment variable
   <br>
   <pre>
-  A label map is created next. This is a mapping between the class labels and their integer identifiers, which aids in translating the model's numerical output back into understandable class labels. </pre>
+  - GOOGLE_PROJECT_ID={your project ID}
+  - CLOUD_RUN_SERVICE={your cloud run service name}
+  - REPO_NAME={your artifact registry repository name}
+  - INSTANCE_CONNECTION_NAME={your project ID:location:sql instance name}
+  - DB_USER={instance admin usename}
+  - DB_PASS={instance admin password}
+  - DB_NAME={database user name}
+  - DB_NAME_ML={database ML name}
+  - ACCESS_TOKEN_SECRET={your own access token key}
+  - REFRESH_TOKEN_SECRET={yout own refresh token key} </pre>
   <br>
-  <br>
-4. Label Map Creation
-  <br>
-  <pre>
-  A CSV record is created for both the training and testing datasets. This record contains the image file paths, object bounding box coordinates, and class labels. </pre>
-  <br>
-5. TFRecord Creation (Train and Testing)
-  <br>
-  <pre>
-  The CSV files for both training and testing data are then converted into the TFRecord format, which is a common format for storing large amounts of data and metadata in TensorFlow. </pre>
-  <br>
-6. Fetch MobileNetV2 SSD FPN Pretrained Model
+3. Cloud shell command
   <br>
   <pre>
-  Following the data preparation, we fetch the pre-trained MobileNetV2 SSD FPN model. Using this pretrained model accelerates our training process by leveraging the patterns already learned. </pre>
-  <br>
-7. Configuring MobileNetV2 SSD FPN Model
-  <br>
-  <pre>
-  The fetched model is then configured according to our project's specific needs. This includes setting model parameters and other configurations suitable for our data and objectives. </pre>
-  <br>
-8. Training Dataset on MobileNetV2 SSD FPN
-  <br>
-  <pre>
-  With the model configured, we move on to training it with our prepared and labeled dataset. The model learns to identify and classify the objects of interest in our images. </pre>
-  <br>
-8. Converting to TFLite
-  <br>
-  <pre>
-  After satisfactory training of the model, it's converted into TFLite format. This conversion facilitates the deployment of our model on mobile or edge devices, ensuring efficient execution of our object detection tasks. </pre>
-  <br>
+  - gcloud builds submit --tag {location}-docker.pkg.dev/$GOOGLE_PROJECT_ID/$REPO_NAME/$CLOUD_RUN_SERVICE \
+    --project=$GOOGLE_PROJECT_ID
+    <br>
+  - gcloud run deploy $CLOUD_RUN_SERVICE \
+    --image {location}-docker.pkg.dev/$GOOGLE_PROJECT_ID/$REPO_NAME/$CLOUD_RUN_SERVICE \
+    --add-cloudsql-instances $INSTANCE_CONNECTION_NAME \
+    --update-env-vars INSTANCE_CONNECTION_NAME=$INSTANCE_CONNECTION_NAME,DB_USER=$DB_USER,DB_PASS=$DB_PASS,DB_NAME=$DB_NAME,ACCESS_TOKEN_SECRET=$ACCESS_TOKEN_SECRET,REFRESH_TOKEN_SECRET=$REFRESH_TOKEN_SECRET,DB_NAME_ML=$DB_NAME_ML \
+    --platform managed \
+    --region {location} \
+    --allow-unauthenticated \
+    --project=$GOOGLE_PROJECT_ID </pre>
+    <br>
 </p>
