@@ -57,3 +57,8 @@ This Repository is used by Machine Learning path cohort to develop object detect
    - The trained model is converted into TFLite format for efficient deployment on mobile or edge devices.</pre>
    <br>
 </p>
+
+<h1 align="center"> Object Detection using SSD Mobilenet V2 </h1>
+![CNN Network Example](https://84771188-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FGEgcCk4PkS5Pa6uBabld%2Fuploads%2Fgit-blob-519584b8c0f51d08a60b0a4b0821ac572eb9de5c%2Fcnn-network-example.jpeg?alt=media)
+
+
