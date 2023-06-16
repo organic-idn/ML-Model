@@ -68,6 +68,14 @@ This Repository is used by Machine Learning path cohort to develop object detect
 MobileNetV2, developed by Google, is an efficient and compact neural network model designed for mobile and edge devices. Building upon its predecessor, MobileNetV1, it introduces two key features: inverted residuals and linear bottlenecks. These architectural improvements maintain high accuracy while being highly computationally efficient. Inverted residuals help in reusing bottlenecks from previous layers, whereas linear bottlenecks reduce the model's size by reducing the dimensionality inside the network. The result is a balance of performance and size, making MobileNetV2 ideal for resource-constrained devices and applications like real-time image classification and object detection.
 <br>
 <br>
+<h3 align="left"> interpret TFLite output tensor </h3>
+<div>
+    <img src="sawilabelcategory.jpg" alt="First Image" width="400" height="300" />
+    <img src="sawiboundingbox.jpg" alt="Second Image" width="400" height="300" />
+</div>
+The TFLite output tensor contains the results of the AI model's predictions. It provides valuable insights into the processed data, revealing the model's inference and decision-making. By analyzing the tensor's values and interpreting them, we can gain a deeper understanding of the AI's output and its significance within the context of our application.
+<br>
+<br>
 <h3 align="left"> Reference </h3>
 • MobileNetV2 SSD FPN - Edge Impulse Documentation. (2017). Edgeimpulse.com. <a href="https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/mobilenetv2-ssd-fpn">MobileNetV2 SSD FPN</a>
 <br>
