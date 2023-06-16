@@ -47,10 +47,9 @@ This Repository is used by Machine Learning path cohort to develop object detect
    <br>
    <pre>
    - The fetched model is configured according to our project's specific needs, such as:
-   - num_steps = 20000
+   - num_steps = 15000
    - batch_size = 16
-   - num_classes = 9
-   </pre>
+   - num_classes = 9</pre>
    <br>
 8. Training Dataset on MobileNetV2 SSD FPN
    <br>
@@ -78,7 +77,24 @@ MobileNetV2, developed by Google, is an efficient and compact neural network mod
     <img src="sawiboundingbox.png" alt="Second Image" width="400" height="300" />
 </div>
 The TFLite output tensor contains the results of the AI model's predictions. It provides valuable insights into the processed data, revealing the model's inference and decision-making. By analyzing the tensor's values and interpreting them, we can gain a deeper understanding of the model output and its significance within the context of our application.
-<br>
+This is the training result at the last step(15000):
+   <pre>
+   - I0613 11:46:22.177595 140345217136448 model_lib_v2.py:705] Step 15000 per-step time 0.162s
+   - INFO:tensorflow:{'Loss/classification_loss': 0.083907776,
+   - 'Loss/localization_loss': 0.061792303,
+   - 'Loss/regularization_loss': 0.13368618,
+   - 'Loss/total_loss': 0.27938628,
+   - 'learning_rate': 0.064939596}
+   - I0613 11:46:22.178014 140345217136448 model_lib_v2.py:708] {'Loss/classification_loss': 0.083907776,
+   - 'Loss/localization_loss': 0.061792303,
+   - 'Loss/regularization_loss': 0.13368618,
+   - 'Loss/total_loss': 0.27938628,
+   - 'learning_rate': 0.064939596}</pre>
+
+• Loss/classification_loss: The value of the classification loss at the given step.
+• Loss/localization_loss: The value of the localization loss at the given step.
+• Loss/regularization_loss: The value of the regularization loss at the given step.
+• Loss/total_loss: The value of the total loss (combination of classification, 
 <br>
 <h3 align="left"> Reference </h3>
 • MobileNetV2 SSD FPN - Edge Impulse Documentation. (2017). Edgeimpulse.com. <a href="https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/mobilenetv2-ssd-fpn">MobileNetV2 SSD FPN</a>
