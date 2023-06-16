@@ -4,7 +4,7 @@
 <h1 align="center"> ML-Model </h1>
 
 This Repository is used by Machine Learning path cohort to develop object detection models to implement the Organic Vegetable Storage Suggestions Classification
-![Bangkit Image](bangkit.png)
+![ML-Timeline-Project](https://github.com/organic-idn/ML-Model/assets/98405455/1ba7e4c1-67d1-4d35-9545-0278ce18b3f0)
 
 <br>
 <h3>Machine Learning Project Timeline</h3>
