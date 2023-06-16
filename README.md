@@ -67,7 +67,6 @@ MobileNetV2, developed by Google, is an efficient and compact neural network mod
 <br>
 <br>
 <h3 align="left"> Reference </h3>
-*https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html
+• MobileNetV2 SSD FPN - Edge Impulse Documentation. (2017). Edgeimpulse.com. <a href="https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/mobilenetv2-ssd-fpn">MobileNetV2 SSD FPN</a>
 <br>
-*https://docs.edgeimpulse.com/docs/edge-impulse-studio/learning-blocks/object-detection/mobilenetv2-ssd-fpn
-
+• Installation — TensorFlow 2 Object Detection API tutorial documentation. (2023). <a href="https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/install.html">TensorFlow2 Ovject Detection API Tutorial</a>
