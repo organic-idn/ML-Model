@@ -73,7 +73,7 @@ MobileNetV2, developed by Google, is an efficient and compact neural network mod
     <img src="sawilabelcategory.png" alt="First Image" width="400" height="300" />
     <img src="sawiboundingbox.png" alt="Second Image" width="400" height="300" />
 </div>
-The TFLite output tensor contains the results of the AI model's predictions. It provides valuable insights into the processed data, revealing the model's inference and decision-making. By analyzing the tensor's values and interpreting them, we can gain a deeper understanding of the AI's output and its significance within the context of our application.
+The TFLite output tensor contains the results of the AI model's predictions. It provides valuable insights into the processed data, revealing the model's inference and decision-making. By analyzing the tensor's values and interpreting them, we can gain a deeper understanding of the model output and its significance within the context of our application.
 <br>
 <br>
 <h3 align="left"> Reference </h3>
