@@ -98,7 +98,7 @@ This is the training result at the last step(15000):
 
 • Loss/regularization_loss: The value of the regularization loss at the given step.
 
-• Loss/total_loss: The value of the total loss (combination of classification, localization, and regularization losses) at the given step.)
+• Loss/total_loss: The value of the total loss (combination of classification, localization, and regularization losses) at the given step.
 
 <br>
 <h3 align="left"> Reference </h3>
