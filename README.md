@@ -19,6 +19,7 @@ This Repository is used by Machine Learning path cohort to develop object detect
    <br>
 2. Labelling Images Using LabelImg
    <br>
+   <img src="labelImgshow.png"/>
    <pre>
    - This involves marking regions of interest in the images and assigning appropriate class labels.</pre>
    <br>
