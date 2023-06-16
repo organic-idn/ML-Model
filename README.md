@@ -12,7 +12,7 @@ This Repository is used by Machine Learning path cohort to develop object detect
 <p>
 1. Google Image Scraping
    <br>
-   ![menampilkan dataset](https://github.com/organic-idn/ML-Model/assets/98405455/c1956759-921c-4c84-abe3-cb629d1f9a99)
+   ![showdatasets](https://github.com/organic-idn/ML-Model/assets/98405455/7b40d69e-447e-4250-aed0-0e4f760522cc)
    <pre>
    - Training Images: These images are used for training the model.
    - Testing Images: These images are used for evaluating the trained model's performance.</pre>
