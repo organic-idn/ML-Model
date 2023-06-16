@@ -46,7 +46,11 @@ This Repository is used by Machine Learning path cohort to develop object detect
 7. Configuring MobileNetV2 SSD FPN Model
    <br>
    <pre>
-   - The fetched model is configured according to our project's specific needs.</pre>
+   - The fetched model is configured according to our project's specific needs, such as:
+   - num_steps = 20000
+   - batch_size = 16
+   - num_classes = 9
+   </pre>
    <br>
 8. Training Dataset on MobileNetV2 SSD FPN
    <br>
